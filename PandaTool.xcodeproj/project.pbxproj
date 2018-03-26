@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2FB40093E12D5AEF724BEC6 /* Pods_PandaTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CC8A5441740B94F6A556C0C /* Pods_PandaTool.framework */; };
 		F461B09A2068848D009A012A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F461B0992068848D009A012A /* AppDelegate.swift */; };
 		F461B09C2068848D009A012A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F461B09B2068848D009A012A /* ViewController.swift */; };
 		F461B09F2068848D009A012A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F461B09D2068848D009A012A /* Main.storyboard */; };
 		F461B0A12068848D009A012A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F461B0A02068848D009A012A /* Assets.xcassets */; };
 		F461B0A42068848D009A012A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F461B0A22068848D009A012A /* LaunchScreen.storyboard */; };
+		F461B0AD206884C9009A012A /* ToolsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F461B0AC206884C9009A012A /* ToolsViewController.swift */; };
+		F461B0AF2068893D009A012A /* AppDelegate+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F461B0AE2068893D009A012A /* AppDelegate+Ex.swift */; };
+		F461B0B120689B10009A012A /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = F461B0B020689B10009A012A /* Tools.swift */; };
+		F461B0B420689DA6009A012A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F461B0B320689DA6009A012A /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0CC8A5441740B94F6A556C0C /* Pods_PandaTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PandaTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB740DC4B356125A706E908 /* Pods-PandaTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PandaTool/Pods-PandaTool.debug.xcconfig"; sourceTree = "<group>"; };
+		D0C113D6D992B1295166EB7C /* Pods-PandaTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PandaTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-PandaTool/Pods-PandaTool.release.xcconfig"; sourceTree = "<group>"; };
 		F461B0962068848D009A012A /* PandaTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PandaTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F461B0992068848D009A012A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F461B09B2068848D009A012A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,11 @@
 		F461B0A02068848D009A012A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F461B0A32068848D009A012A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F461B0A52068848D009A012A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F461B0AC206884C9009A012A /* ToolsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsViewController.swift; sourceTree = "<group>"; };
+		F461B0AE2068893D009A012A /* AppDelegate+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Ex.swift"; sourceTree = "<group>"; };
+		F461B0B020689B10009A012A /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		F461B0B220689DA6009A012A /* PandaTool-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PandaTool-Bridging-Header.h"; sourceTree = "<group>"; };
+		F461B0B320689DA6009A012A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +42,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2FB40093E12D5AEF724BEC6 /* Pods_PandaTool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D285FE15404ED5EAE48C196 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CC8A5441740B94F6A556C0C /* Pods_PandaTool.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95E4265F945FFFCAB48576DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BB740DC4B356125A706E908 /* Pods-PandaTool.debug.xcconfig */,
+				D0C113D6D992B1295166EB7C /* Pods-PandaTool.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F461B08D2068848D009A012A = {
 			isa = PBXGroup;
 			children = (
 				F461B0982068848D009A012A /* PandaTool */,
 				F461B0972068848D009A012A /* Products */,
+				95E4265F945FFFCAB48576DB /* Pods */,
+				3D285FE15404ED5EAE48C196 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,27 @@
 		F461B0982068848D009A012A /* PandaTool */ = {
 			isa = PBXGroup;
 			children = (
+				F461B0AB20688496009A012A /* Tools */,
 				F461B0992068848D009A012A /* AppDelegate.swift */,
 				F461B09B2068848D009A012A /* ViewController.swift */,
 				F461B09D2068848D009A012A /* Main.storyboard */,
 				F461B0A02068848D009A012A /* Assets.xcassets */,
 				F461B0A22068848D009A012A /* LaunchScreen.storyboard */,
 				F461B0A52068848D009A012A /* Info.plist */,
+				F461B0B320689DA6009A012A /* main.m */,
+				F461B0B220689DA6009A012A /* PandaTool-Bridging-Header.h */,
 			);
 			path = PandaTool;
+			sourceTree = "<group>";
+		};
+		F461B0AB20688496009A012A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				F461B0AC206884C9009A012A /* ToolsViewController.swift */,
+				F461B0AE2068893D009A012A /* AppDelegate+Ex.swift */,
+				F461B0B020689B10009A012A /* Tools.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +117,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F461B0A82068848D009A012A /* Build configuration list for PBXNativeTarget "PandaTool" */;
 			buildPhases = (
+				79D82455D9908201B846B515 /* [CP] Check Pods Manifest.lock */,
 				F461B0922068848D009A012A /* Sources */,
 				F461B0932068848D009A012A /* Frameworks */,
 				F461B0942068848D009A012A /* Resources */,
+				9262AFED33FB8D69DB265871 /* [CP] Embed Pods Frameworks */,
+				760BB67A3CD46B870142E239 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +145,7 @@
 				TargetAttributes = {
 					F461B0952068848D009A012A = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,13 +181,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		760BB67A3CD46B870142E239 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PandaTool/Pods-PandaTool-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79D82455D9908201B846B515 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PandaTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9262AFED33FB8D69DB265871 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PandaTool/Pods-PandaTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F461B0922068848D009A012A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F461B0AD206884C9009A012A /* ToolsViewController.swift in Sources */,
 				F461B09C2068848D009A012A /* ViewController.swift in Sources */,
 				F461B09A2068848D009A012A /* AppDelegate.swift in Sources */,
+				F461B0AF2068893D009A012A /* AppDelegate+Ex.swift in Sources */,
+				F461B0B420689DA6009A012A /* main.m in Sources */,
+				F461B0B120689B10009A012A /* Tools.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +377,19 @@
 		};
 		F461B0A92068848D009A012A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB740DC4B356125A706E908 /* Pods-PandaTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3Z8A6LQ5R;
 				INFOPLIST_FILE = PandaTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tayoji.PandaTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tayoji.PandaTool1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PandaTool/PandaTool-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,13 +397,18 @@
 		};
 		F461B0AA2068848D009A012A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0C113D6D992B1295166EB7C /* Pods-PandaTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R3Z8A6LQ5R;
 				INFOPLIST_FILE = PandaTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tayoji.PandaTool;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tayoji.PandaTool1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PandaTool/PandaTool-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+
+        Tools.config(launchOptions: launchOptions, appkey: "e912fcb71686980be34bec46", channel: "2018&04&03", window: window!)
         return true
     }
 
