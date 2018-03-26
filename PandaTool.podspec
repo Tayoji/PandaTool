@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-a swift Tools                   
+a swift PandaTool Tools                   
 DESC
 
   s.homepage     = "https://github.com/Tayoji/PandaTool"
@@ -91,7 +91,7 @@ DESC
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Tools/*.swift"
+  s.source_files  = "PandaTool/Tools/*.swift"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
